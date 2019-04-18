@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>Day 3</title>
+</head>
+
+<body>
+<h2> The Game </h2>
+
+</br>
+<h3> Third Day Progress </h3>
+<div> 
+The problem from yesterday that I've spent two hours in the afternoon has been solved by making a new folder called "Downloads" and copy pasting a blocks.xnb file.
+the solution is simple and I'm mad that this worked......
+</div> 
+<p> edit 1 </p>
+</br>
+<div>
+The making of the player camera has worked with minimal errors and the only minor problem was finding the position of my player to make the camera follow that
+it has be solved grabing the rectangle of the player and the location and making it ToVector2.
+</div>
+<p> edit 2 </p>
+<div>
+10:31 time to start the moving functions to only work for one key press. </br>
+Was simple, done in about 20 minutes all I had to do was make a function for when keys A and D were up as well as the bool was in a certain condition
+then the function would change the bools condition.
+</div>
+<p> edit 3 </p>
+<div>
+Now its time to make collisions for my tiled and player. </br>
+This is difficult. </br>
+Hasn't worked 
+</div>
+<p> edit 4 </p>
+
+<div>
+Trying to spawn the player on the tile map by either shifting the map or moving the player. </br>
+None of these are working and my camera is tracking my player which I don't want it to do.
+Finally got it to work after an hour.
+</div>
+<p> edit 5</p>
+
+<div>
+Going to remake all of my collision code and hopefully intersects works better than making AABB code.
+</div>
+<p> edit 6</p>
+<a href="Game Blog.html">Back to Start</a> <br>
+<a href="Day 1.html">Day One</a> <br>
+<a href="Day 2.html">Day Two</a> <br>
+<a href="Day 4.html">Day Four</a> <br>
+<a href="References.html">References</a> <br>
+</body>
+
+<style>
+body {
+    background-color: black;
+}
+h1 {
+	margin-top: 100px;
+	text-align: center;
+	//background-color: lightblue;
+	align-content:center;
+	font-size: 50px;
+}
+h2 {
+	margin-left: 50px;
+	color:green;
+	font-size: 30px;
+	border: 1px solid #000000;
+	width: 200px;
+	outline: 5px dashed blue;
+	outline-offset: 5px;
+}
+h3 {
+	margin-left: 25px;
+	color:white;
+}
+div {
+	margin-left: 25px;
+	color:white;
+}
+p {
+	color:white;
+	margin-left: 25px;
+	font-size: 9px;
+}
+img {
+	margin-left: 25px;
+}
+a {
+	margin-left:25px;
+}
+</style>
+</body>
+</html>
